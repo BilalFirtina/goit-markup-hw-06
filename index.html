@@ -27,7 +27,12 @@
       <div class="container menu">
         <nav class="menu-nav">
           <a class="logo" href="/"><span class="logo-web">WEB</span>STUDIO</a>
-          <ul class="menu-nav-ul">
+          <a href="#">
+            <svg class="hamburger-menu" width="24" height="24">
+              <use href="./images/icons.svg#icon-hamburger"></use>
+            </svg>
+          </a>
+          <ul class="menu-nav-ul close">
             <li class="menu-nav-li"><a class="link" href="#">Studio</a></li>
             <li class="menu-nav-li">
               <a class="link" href="#">Portfolio</a>
@@ -38,7 +43,7 @@
           </ul>
         </nav>
         <!--Top-Right links-->
-        <address class="address-nav">
+        <address class="address-nav close">
           <ul class="address-ul">
             <li class="address-li">
               <a class="address-a" href="mailto:info@devstudio.com"
@@ -67,10 +72,10 @@
       <!--Section Second-Paragraphs-->
       <section class="section-second">
         <div class="container">
-          <h2 class="visually-hidden">feature</h2>
+          <h2 class="close">feature</h2>
           <ul class="parag-ul">
             <li class="parag-li">
-              <div class="icon-div-above">
+              <div class="icon-div-above close">
                 <svg class="icon-above" width="64" height="64">
                   <use href="./images/icons.svg#icon-strategy"></use>
                 </svg>
@@ -83,7 +88,7 @@
             </li>
 
             <li class="parag-li">
-              <div class="icon-div-above">
+              <div class="icon-div-above close">
                 <svg class="icon-above" width="64" height="64">
                   <use href="./images/icons.svg#icon-punctuality"></use>
                 </svg>
@@ -96,7 +101,7 @@
             </li>
 
             <li class="parag-li">
-              <div class="icon-div-above">
+              <div class="icon-div-above close">
                 <svg class="icon-above" width="64" height="64">
                   <use href="./images/icons.svg#icon-diligence"></use>
                 </svg>
@@ -109,7 +114,7 @@
             </li>
 
             <li class="parag-li">
-              <div class="icon-div-above">
+              <div class="icon-div-above close">
                 <svg class="icon-above" width="64" height="64">
                   <use href="./images/icons.svg#icon-technologies"></use>
                 </svg>
@@ -130,7 +135,12 @@
           <h2 class="title-team">Our Team</h2>
           <ul class="team-ul">
             <li class="team-li">
-              <img class="img" src="./images/img-3.jpg" alt="Mark Photo" />
+              <img
+                class="img"
+                srcset="./images/img-3.jpg, ./images/img-3 @2x.jpg"
+                src="./images/img-3.jpg"
+                alt="Mark Photo"
+              />
               <div class="intro">
                 <h3 class="bold">Mark Guerrero</h3>
                 <p class="text">Product Designer</p>
@@ -184,7 +194,12 @@
             </li>
 
             <li class="team-li">
-              <img class="img" src="./images/img-2.jpg" alt="Tom Photo" />
+              <img
+                class="img"
+                srcset="./images/img-2.jpg, ./images/img-2 @2x.jpg"
+                src="./images/img-2.jpg"
+                alt="Tom Photo"
+              />
               <div class="intro">
                 <h3 class="bold">Tom Ford</h3>
                 <p class="text">Frontend Developer</p>
@@ -557,7 +572,7 @@
       </div>
     </footer>
     <!--Section Modal-->
-    <div class="modal-window">
+    <div class="modal-window close">
       <div class="modal-container">
         <button type="button" class="modal-window-button">
           <svg class="modal-window-x" width="8" height="8">
