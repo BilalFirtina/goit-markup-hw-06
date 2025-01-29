@@ -458,7 +458,8 @@
     margin: 0;
     padding: 0;
   }
-  li {
+  li,
+  ul {
     list-style: none;
   }
   html,
