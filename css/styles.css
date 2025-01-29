@@ -1617,7 +1617,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    margin-bottom: 16px;
+    margin: 0 0 16px 0;
   }
   .form-div {
     margin-bottom: 8px;
